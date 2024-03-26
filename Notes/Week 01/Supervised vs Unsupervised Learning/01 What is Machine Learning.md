@@ -1,5 +1,5 @@
 # Coursera Machine Learning Specialization
-### From Stanford University and Deepmind.ai
+### From Stanford University and Deeplearnings.ai
 ### Created by Andrew Ng
 
 ## What is Machine Learning?

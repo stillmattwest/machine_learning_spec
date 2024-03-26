@@ -14,7 +14,7 @@ A more complex algorithm might have more output types. For example, predicting t
 
 Classification algorithms predict *classes* or *categories*. The terms are interchangable. 
 
-It is possible to use n number of inputs in an effort to get an accurate output. 
+It is possible to use $n$ number of inputs in an effort to get an accurate output. 
 
 For example, in the cancer app certain factors about the patient, such as age, can affect the output.
 

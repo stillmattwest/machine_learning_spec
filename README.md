@@ -1,2 +1,7 @@
-# machine_learning_spec
-Notes from Coursera Machine Learning Specialization
+
+# Notes from Coursera Machine Learning Specialization
+## From Stanford University and Deeplearnings.ai
+## Created by Andrew Ng
+
+
+
