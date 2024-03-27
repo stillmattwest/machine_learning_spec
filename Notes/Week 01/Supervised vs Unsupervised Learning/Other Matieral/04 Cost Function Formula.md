@@ -54,6 +54,8 @@ $y^i$ is the true value of the ith training example.
 
 The summation of $\sum^m_i=1$ is taken over all the training examples. We use $1/2m$ as the multiple to get a more usable input when we have very large training sets. 
 
+ $\sum^m_i=1$ is fancy notation for taking the sum starting at 1 and going up to m, which is the total size of the training data. it's `for i in range(1,m+1): total += i`, basically.
+
 That equaltion is also called the **squared error cost function** and its the most used cost function for all regression problems, but especially in linear regressions. 
 
 It's not the only cost function out there, though.
