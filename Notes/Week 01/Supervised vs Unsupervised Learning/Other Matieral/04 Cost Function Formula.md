@@ -60,4 +60,10 @@ That equaltion is also called the **squared error cost function** and its the mo
 
 It's not the only cost function out there, though.
 
+Okay, but what does it DO?
+
+What the cost function does is to measure your predicted values ($\hat y$) with the true value of y in your training data. 
+
+So the cost function $J$ should be as low as possible. 
+
 
