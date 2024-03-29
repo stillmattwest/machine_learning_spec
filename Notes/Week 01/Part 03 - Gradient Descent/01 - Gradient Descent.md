@@ -31,5 +31,5 @@ These various minimums are called *local minima*.
 
 Gradient descent basically checks to see the most direct path to a local minima. 
 
-## Implementing Gradient Descent
+
 
