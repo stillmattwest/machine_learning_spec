@@ -10,7 +10,7 @@ In machine learning, the model will run gradient descent repeatedly until either
 
 There are two formulae in gradient descent, one to reassign the value of $w$, the other to reassign the value of $b$.
 
-$w = w-\alpha \frac{d}{dw}J(w,b)$
+$w = w-\alpha \frac{\partial}{\partial w}J(w,b)$
 
 **A Note About = For Coders**
 
@@ -32,7 +32,7 @@ While that works in code, it can never be true in mathematics.
 
 $\alpha$ is the *learning rate*. In gradient descent, it sets how big of a "step" we take towards the local minimum. 
 
-$\frac{d}{dw}J(w,b)$ is a derivative of the cost function.
+$\frac{\partial}{\partial w}J(w,b)$ is a derivative (technically a partial derivative) of the cost function.
 
 Derivatives come from calculus, of course. But Ng says we're good even if our calculus might be a little rusty.
 
@@ -42,7 +42,7 @@ But that's not all!
 
 We also need to re-assign the value of $b$.
 
-$b = b-\alpha\frac{d}{db}J(w,b)$
+$b = b-\alpha\frac{\partial}{\partial b}J(w,b)$
 
 We update both these parameters at the same time. This means that update $w$ from its *original* value and $b$ from its *original* value. Don't modify $w$ and then use the new value in $b$, that's no bueno.
 
@@ -50,5 +50,5 @@ In code, you'd make temp variables, calculate, and then reassign $w$ and $b$ usi
 
 Just remember to do BOTH variables before moving on. Simultaneous. Right? Okay.
 
-The basic idea of gradient descent i
+
 
