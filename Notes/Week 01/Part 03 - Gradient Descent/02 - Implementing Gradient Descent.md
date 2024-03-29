@@ -18,7 +18,7 @@ In coding, = is an assignment operator but that is not true in mathematics. In m
 
 $5 = 3+2$
 
-$d = \pi r^2$
+$\varnothing = \pi r^2$
 
 We can never write something like:
 
