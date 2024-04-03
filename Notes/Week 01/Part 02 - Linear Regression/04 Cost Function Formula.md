@@ -1,6 +1,6 @@
 # Cost Function Formula
 
-In order to implement linear regression, the first step is to define something called a **cost function**.
+In order to *implement* linear regression, the first step is to define something called a **cost function**.
 
 ## Review
 
@@ -20,7 +20,7 @@ We can prove it with math:
 
 $f(x) = 0 * x + 1.5$
 
-Since anything multiplied by zero is zero, viola, we have a flat line.
+Since anything multiplied by zero is zero, voila, we have a flat line.
 
 If we make it a little more interesting, with w = 0.5 and b = 1, then we get a line that starts at 1 on the y-axis and slopes up based on w. Since w is 0.5 the $\hat y$ will increase by 0.5 for every unit of x. 
 

@@ -1,10 +1,10 @@
-# Linear Regression Model Part 01
+# Linear Regression Models Part 01
 
 A linear regression model fits a straight line to your data. It is likely the most used ML model in the world.
 
 In a simple x,y graph, a linear regression model will find a straight line that shows the trend of the data. It could be useful for something like finding the asking price of a house based on its location and square footage.
 
-Linear Regression is a type of supervised learning model because you give it labeled data. 
+Linear Regression is a type of supervised learning model because you give it labeled training data. 
 
 Remember, regression models predict numbers from an infinite range of possibilties. This contrasts with classification models, which predict a number from a limited set.
 
@@ -22,7 +22,7 @@ m: the number of training samples
 
 (x,y): a single training example
 
-(x^i^, y^i^): the i^th^ training example. Note, this is not exponentiation. It's just the index number or row of the training set.
+($x^i, y^i$): the $i^{th}$ training example. Note, this is not exponentiation. It's just the index number or row of the training set.
 
 
 

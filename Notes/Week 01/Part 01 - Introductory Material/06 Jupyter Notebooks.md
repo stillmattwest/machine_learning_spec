@@ -10,5 +10,5 @@ Practice labs require writing code. None of these in week 01.
 
 The blocks in a JN are either markdown or code. The blocks are more properly called *cells*. 
 
-shift+enter will reveal the raw markdown code in those cells. It will run code in the code cells. 
+shift+enter will reveal the raw markdown code in those cells. It will also run code in the code cells. 
 

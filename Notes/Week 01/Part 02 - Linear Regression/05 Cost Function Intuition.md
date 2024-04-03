@@ -2,7 +2,7 @@
 
 The goal:
 
-minimize $J(w,b)$
+minimize $J(w,b)$ with zero being the floor.
 
 One thing you can do is to simplify the cost function equation by removing $b$ (bias).
 

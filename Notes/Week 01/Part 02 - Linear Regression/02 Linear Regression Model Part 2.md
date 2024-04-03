@@ -6,9 +6,9 @@ We feed the training set into a learning algorithm ($f$ )
 
 $f$ is the model.
 
-Outputs (predictions) are written as $\hat y$.
+Outputs (predictions) are written as $\hat y$ (pronounced "y hat")
 
-The prediciton is the estimated value of $y$. 
+The prediciton is the estimated true value of $y$. 
 
 $x -> f -> \hat y$
 
@@ -24,11 +24,11 @@ or
 
 $f(x) = wx + b$
 
-This is linear regression with one variable. One input variable in our case. 
+This is linear regression with one input variable. 
 
 Let's breakdown the formula:
 
-$f(x)$ represents the function when the input is x. It represents the dependent, or output, variable that we're trying to predict. 
+$f(x)$ represents the function when the input is x. It calculates the dependent, or output, variable that we're trying to predict. 
 
 $\hat y$ vs. $y$: $\hat y$ is the *predicted* output of $f(x)$. $y$ is the *true output*. That's the difference.
 
@@ -36,7 +36,7 @@ $w$ is the weight, or slope, of the linear function. It indicates how much the o
 
 $b$ is the y-intercept of the linear function. It represents the value of $f(x)$ when x is zero. Geometrically, its the point where the function intersects the y axis. 
 
-Put it all togehter and the formula $f(x) = wx +b$ describes a linear relationship between the input variable and the output variable. W is the slope of the line and b is a y-intercept
+Put it all togehter and the formula $f(x) = wx +b$ describes a linear relationship between the input variable and the output variable. W is the slope of the line and b is the y-intercept
 
 one-variable linear regression is called *univariable linear regression*. Obviously, it's not the only type or the most useful type. If we're calculating home sale prices, for example, we'd want more than one data point to predict the price.
 

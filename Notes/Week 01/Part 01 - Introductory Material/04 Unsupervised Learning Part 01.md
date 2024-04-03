@@ -2,7 +2,7 @@
 
 After supervised learning, the most-used type of machine learning is unsupervised learning. 
 
-In unsupervised learning, no labels are given from any data. For example, in a data model meant to find cancerous tumors, no labels are given to the computer to identify a mass as benign or malignant. 
+In unsupervised learning, no labels are given for any data. For example, in a data model meant to find cancerous tumors, no labels are given to the computer to identify a mass as benign or malignant. 
 
 Without these labels, the computer cannot explicitly identify a malignant tumor, but that isn't the goal of unsupervised learning. Instead, the model is meant to find interesting patterns in the data. 
 
