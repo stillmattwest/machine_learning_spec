@@ -6,7 +6,7 @@ They are also key to using GPUs.
 
 In Python and NumPy vectors are laid out as arrays. 
 
-It's important to remember than in math, vector entries start at 1, but of course in Python they start at zero.
+It's important to remember that in math, vector entries start at 1, but of course in Python they start at zero.
 
 Mathematically, you can write your unvectorized formula like so:
 
