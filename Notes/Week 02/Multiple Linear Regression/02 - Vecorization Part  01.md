@@ -1,4 +1,4 @@
-# Vectorization Part 1
+# Vectorization Part 01
 
 Using vectorization makes code shorter and more efficient. They also allow you to use modern linear algebra libraries. 
 
